@@ -1,7 +1,7 @@
 import torch.nn as nn
 
-from utils.constants import EMBED_DIMENSION, EMBED_MAX_NORM
-
+EMBED_DIMENSION = 300
+EMBED_MAX_NORM = 1
 
 class CBOW_Model(nn.Module):
     """
