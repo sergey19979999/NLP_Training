@@ -17,7 +17,12 @@ ARTICLES = ["Grammatica de su sardu", "Sardigna", "Mare Mediterràneu", "Terra"
             "Cristianèsimu", "Provìntzia de Nùgoro", "Casteddu",
             "Limbas romanzas", "Limba italiana", "Edade mèdia",
             "Impèriu bizantinu", "Impèriu otomanu", "Europa",
-            "Mare Ruju", "Penìsula àraba", "Àrabos", "Islam"]
+            "Mare Ruju", "Penìsula àraba", "Àrabos", "Islam",
+            "Istados Unidos de Amèrica", "Canada", "Chenàbura",
+            "Plauto", "Europa meridionale", "Turkia", "Mare Nieddu",
+            "Limba ebrea","Limbas semìticas", "Oriente Mèdiu", "Piemonte",
+            "Produtu Internu Brutu", "Economia", "Domo/logudoresu",
+            "Wikipedia:Amministradores"]
 
 def fetch_wikipedia_article(page_title, lang='sc'):
     """
